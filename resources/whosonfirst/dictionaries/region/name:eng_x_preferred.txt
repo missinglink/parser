@@ -3797,11 +3797,11 @@ rezina
 Șoldănești district
 florești district
 drocia
-raionul edineţ
+raionul edineț
 briceni
 soroca
 dondușeni district
-raionul ocniţa
+raionul ocnița
 ciudad de méxico
 guerrero
 méxico
@@ -4043,7 +4043,7 @@ vaslui
 neamt
 bistrita-nasaud
 satu mare
-maramureş county
+maramureș county
 iasi
 suceava
 botosani

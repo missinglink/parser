@@ -26183,7 +26183,7 @@ tigina
 chișinău
 tiraspol
 byelcy
-rîbniţa
+rîbnița
 maastricht
 helmond
 oss
@@ -26241,7 +26241,7 @@ slatina
 călărași
 targu jiu
 slobozia
-reşiţa
+reşița
 constanța
 târgovişte
 ramnicu valcea
@@ -26271,8 +26271,8 @@ miercurea-ciuc
 oradea
 vaslui
 barlad
-piatra neamţ
-bistriţa
+piatra neamț
+bistrița
 satu mare
 baia mare
 iași
@@ -37206,7 +37206,7 @@ ricse
 Șerbănești
 grănicești
 zvoriștea
-rădăuţi
+rădăuți
 calafindești
 zamostea
 dornești
@@ -55989,7 +55989,7 @@ rozavlea
 sălsig
 gârdani
 iapa
-sighetu marmaţiei
+sighetu marmației
 săpânța
 jeud
 băile borșa
@@ -65351,7 +65351,7 @@ lipoven'
 sagaydaki
 satu-nou
 selemet
-Ştefan vodă
+Ștefan vodă
 antonesht'
 brezoya
 carahasani

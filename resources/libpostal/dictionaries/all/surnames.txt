@@ -4085,7 +4085,7 @@ Vormer
 Vorganov
 Vorgrimler
 Vornholt
-Vornişel
+Vornișel
 Voráček
 Voráčová
 Vorbe
@@ -4349,7 +4349,7 @@ Vulević
 Vulliamy
 Vullo
 Vulpe
-Vulpeş
+Vulpeș
 Vulović
 Vultaggio
 Vujanić
@@ -4735,10 +4735,10 @@ Văcăroiu
 Vădrariu
 Văduva
 Vălean
-Văluţă
+Văluță
 Văideanu
 Văsie
-Vătăşoiu
+Vătășoiu
 Vēja
 Vējonis
 Vētra
@@ -38654,7 +38654,7 @@ Tonge
 Tonguç
 Toninelli
 Tonini
-Toniţa
+Tonița
 Tonokura
 Tonon
 Tondre
@@ -44366,14 +44366,14 @@ Negro
 Negron
 Negroni
 Negru
-Negruţă
+Negruță
 Negi
 Negishi
 Negus
 Negussie
 Negash
 Negedu
-Negoiţescu
+Negoițescu
 Neil
 Neild
 Neill
@@ -49039,7 +49039,7 @@ Uğurlu
 Şipal
 Şirin
 Şişli
-Ştefănescu
+Ștefănescu
 Žigeranović
 Žigić
 Živanović

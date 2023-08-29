@@ -5,7 +5,7 @@ drumul
 fundătura|fundatura|fnd
 fundacul|fdc
 intrarea|int|intr
-piaţa|piata|piață|pta|pţa|p-ta|p-ţa
+piața|piata|piață|pta|pța|p-ta|p-ța
 strada|str
 stradela|str-la|sdla
 șoseaua|soseaua|sos|șos
