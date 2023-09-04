@@ -3,6 +3,21 @@ const path = require('path')
 const sqlite = require('better-sqlite3')
 const dictPath = path.join(__dirname, 'dictionaries')
 
+/**
+ * Usage:
+ * node resources/whosonfirst/generate.js /data/wof/sqlite/whosonfirst-data-admin-latest.db
+ *
+ * note: after running this command there may be many dictionaries
+ * generated which are ignored by the .gitignore but still loaded when
+ * the parser starts up.
+ *
+ * This is usually noticable as the start time is slow and the tests are failing.
+ * It will only affect your local installation but can be difficult to debug.
+ *
+ * To remove generated files from your local tree which aren't included by the .gitignore:
+ * git clean -fx resources/whosonfirst
+ */
+
 // generate dictionaries dir if it doesn't exist
 if (!fs.existsSync(dictPath)) { fs.mkdirSync(dictPath) }
 
@@ -42,7 +57,7 @@ AND (
 var data = []
 
 // language blacklist
-var blacklist = [ 'unk', 'vol' ]
+var blacklist = ['unk', 'vol']
 
 /**
  * { id: 85633337,
@@ -110,6 +125,6 @@ for (let placetype in data) {
     if (fs.existsSync(filePath)) { fs.unlinkSync(filePath) }
 
     // write data to file
-    fs.writeFileSync(filePath, Array.from(data[placetype][field]).join('\n'))
+    fs.writeFileSync(filePath, Array.from(data[placetype][field]).sort().join('\n'))
   }
 }

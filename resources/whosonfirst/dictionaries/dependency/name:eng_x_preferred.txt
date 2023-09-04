@@ -1,42 +1,42 @@
-guam
-us virgin islands
-saint barthelemy
-turks and caicos islands
-falkland islands (islas malvinas)
-heard island and mcdonald islands
-anguilla
-south georgia and the south sandwich islands
-united states minor outlying islands
-bassas da india
-dhekelia sovereign base area
-northern mariana islands
-british indian ocean territory
-new caledonia
-cook islands
-st helena ascension and tristan da cunha
-niue
-christmas island
-norfolk island
-french southern and antarctic lands
-wallis and futuna
-pitcairn islands
-cayman islands
-ashmore and cartier islands
-coral sea islands
-british virgin islands
-guantanamo bay usnb
-french polynesia
-montserrat
-clipperton island
-american samoa
-bermuda
 akrotiri
 aland
-faroe islands
-gibraltar
-puerto rico
+american samoa
+anguilla
+ashmore and cartier islands
+bassas da india
+bermuda
+british indian ocean territory
+british virgin islands
 caribbean netherlands
-saint martin
-tokelau islands
-saint pierre and miquelon
+cayman islands
+christmas island
+clipperton island
+cook islands
+coral sea islands
+dhekelia sovereign base area
+falkland islands (islas malvinas)
+faroe islands
+french polynesia
+french southern and antarctic lands
+gibraltar
+guam
+guantanamo bay usnb
+heard island and mcdonald islands
 indian ocean territories
+montserrat
+new caledonia
+niue
+norfolk island
+northern mariana islands
+pitcairn islands
+puerto rico
+saint barthelemy
+saint martin
+saint pierre and miquelon
+south georgia and the south sandwich islands
+st helena ascension and tristan da cunha
+tokelau islands
+turks and caicos islands
+united states minor outlying islands
+us virgin islands
+wallis and futuna
