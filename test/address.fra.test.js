@@ -117,6 +117,22 @@ const testcase = (test, common) => {
   assert(`Esplanade de la Liberté`, [{ street: 'Esplanade de la Liberté' }])
   assert(`Esplanade du Géneral de Gaulle`, [{ street: 'Esplanade du Géneral de Gaulle' }])
   assert(`Esplanade Méditerranée`, [{ street: 'Esplanade Méditerranée' }])
+
+  // bis/ter housenumber prefixes
+  assert(`1 bis Av. Amélie, 92320 Châtillon, France`, [
+    { housenumber: '1 bis' },
+    { street: 'Av. Amélie' },
+    { postcode: '92320' },
+    { locality: 'Châtillon' },
+    { country: 'France' }
+  ])
+  assert(`1 ter Av. Amélie, 92320 Châtillon, France`, [
+    { housenumber: '1 ter' },
+    { street: 'Av. Amélie' },
+    { postcode: '92320' },
+    { locality: 'Châtillon' },
+    { country: 'France' }
+  ])
 }
 
 module.exports.all = (tape, common) => {
