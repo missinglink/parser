@@ -255,6 +255,90 @@ module.exports = [
     ]
   },
   {
+    // 11 Listopada
+    confidence: 0.81,
+    Class: StreetClassification,
+    scheme: [
+      {
+        is: ['NumericClassification'],
+        not: ['StreetClassification', 'IntersectionClassification']
+      },
+      {
+        is: ['StreetNumericClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      }
+    ]
+  },
+  {
+    // 11 Pułku Swoleżerów
+    confidence: 0.79,
+    Class: StreetClassification,
+    scheme: [
+      {
+        is: ['NumericClassification'],
+        not: ['StreetClassification', 'IntersectionClassification']
+      },
+      {
+        is: ['StreetNumericClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      },
+      {
+        is: ['StreetNumericClassification', 'AlphaClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      }
+    ]
+  },
+  {
+    // 11 Pułku Strzelców Podhalańskich
+    confidence: 0.79,
+    Class: StreetClassification,
+    scheme: [
+      {
+        is: ['NumericClassification'],
+        not: ['StreetClassification', 'IntersectionClassification']
+      },
+      {
+        is: ['StreetNumericClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      },
+      {
+        is: ['StreetNumericClassification', 'AlphaClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      },
+      {
+        is: ['StreetNumericClassification', 'AlphaClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      }
+    ]
+  },
+  {
+    // 4 Pułku Piechoty Wojska Polskiego
+    confidence: 0.79,
+    Class: StreetClassification,
+    scheme: [
+      {
+        is: ['NumericClassification'],
+        not: ['StreetClassification', 'IntersectionClassification']
+      },
+      {
+        is: ['StreetNumericClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      },
+      {
+        is: ['StreetNumericClassification', 'AlphaClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      },
+      {
+        is: ['StreetNumericClassification', 'AlphaClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      },
+      {
+        is: ['StreetNumericClassification', 'AlphaClassification'],
+        not: ['StreetClassification', 'StreetPrefixClassification']
+      }
+    ]
+  },
+  {
     // Boulevard du Général Charles De Gaulle
     confidence: 0.81,
     Class: StreetClassification,
