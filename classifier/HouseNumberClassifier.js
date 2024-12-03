@@ -15,7 +15,8 @@ class HouseNumberClassifier extends WordClassifier {
         /^(\d{1,5})[a-zA-Z\u0400-\u04FF]?\/(\d{1,5})$/.test(span.body) || // 1/135 or 1b/135 Style
         /^(\d{1,5})([nsewNSEW])(\d{1,5})[a-zA-Z]?$/.test(span.body) || // 6N23 Style (ie Kane County, IL)
         /^([nsewNSEW])(\d{1,5})([nsewNSEW]\d{1,5})?$/.test(span.body) // W350N5337 or N453 Style (ie Waukesha County, WI)
-        // /^\d{1,5}(к\d{1,5})?(с\d{1,5})?$/.test(span.body) // Russian style including korpus (cyrillic к) and stroenie (cyrillic с)
+        /^(\d{1,5}) (\d\/\d)?$/.test(span.body) || // 3 1/4 Style (ie Immenstadt im Allgäu, Germany)
+        // /^\d{1,5}(к\d{1,5})?(с\d{1,5})?$/.test(span.body) // Russian style including korpus (cyrillic к) and stroenie (cyrillic с)        
     ) {
       let confidence = 1
       let prev = span.graph.findOne('prev')

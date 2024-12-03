@@ -1,1 +1,11 @@
 !ma
+bahnhof|bf|b f
+busbahnhof|bbf
+casino|kasino
+feuerwehr|fw
+grundschule|gs|g s
+hauptbahnhof|hbf|h b f
+krankenhaus|kh|k h
+nachtklub|nachtclub
+polizei|pol
+zahnarzt

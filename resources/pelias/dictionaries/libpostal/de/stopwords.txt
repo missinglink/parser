@@ -1,0 +1,17 @@
+bei|b|b.
+das|d|d.
+dem|d|d.
+den|d|d.
+der|d|d.
+des|d|d.
+die|d|d.
+fur|für|f.
+gegenuber|gegenüber|ggü.|ggu|g g u|g g ü
+mit|m.
+nachst|nächst
+uber|über
+vor|v|v.
+von|v|v.
+zu|z|z.
+zwischen|zw.|z w
+zum|z|z.

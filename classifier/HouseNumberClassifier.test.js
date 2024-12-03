@@ -133,6 +133,24 @@ module.exports.tests.forward_slash = (test) => {
   })
 }
 
+module.exports.tests.fraction_appendix = (test) => {
+  test('Fraction: 1 3/4', (t) => {
+    let s = classify('1 3/4')
+    t.deepEqual(s.classifications, { HouseNumberClassification: new HouseNumberClassification(1.0) })
+    t.end()
+  })
+    test('Fraction: 25 2/2', (t) => {
+    let s = classify('25 2/2')
+    t.deepEqual(s.classifications, { HouseNumberClassification: new HouseNumberClassification(1.0) })
+    t.end()
+  })
+  test('Fraction: 11 1/3', (t) => {
+    let s = classify('11 1/3')
+    t.deepEqual(s.classifications, { HouseNumberClassification: new HouseNumberClassification(1.0) })
+    t.end()
+  })
+}
+
 module.exports.tests.misc = (test) => {
   test('misc: 6N23', (t) => {
     let s = classify('6N23')

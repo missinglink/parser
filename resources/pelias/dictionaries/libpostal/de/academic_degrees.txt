@@ -1,0 +1,7 @@
+diplom ingenieur|dipl ing|dipl. ing.|dipl. ing
+diplom kaufmann|dipl kfm|dipl. kfm.|dipl. kfm
+doktor der medizin|dr med|dr. med.
+doktor der philosophie|dr phil|dr. phil.
+magister|mag|mag.
+bachelor of science|b.sc|b sc.|bachelor Sc.|b sc|b. sc
+master of science|m.sc|m sc.|master Sc.|m sc|m. sc
