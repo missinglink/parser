@@ -107,17 +107,17 @@ module.exports = [
     ]
   },
   {
-    // Am Falkplatz
+    // N Main
     confidence: 0.98,
     Class: StreetClassification,
     scheme: [
       {
-        is: ['StopWordClassification'],
-        not: ['IntersectionClassification']
+        is: ['DirectionalClassification'],
+        not: ['IntersectionClassification', 'StreetClassification']
       },
       {
         is: ['StreetClassification'],
-        not: ['StopWordClassification']
+        not: ['IntersectionClassification', 'DirectionalClassification']
       }
     ]
   },
